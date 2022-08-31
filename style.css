@@ -29,3 +29,10 @@ button{
   margin-top: 5px;
   font-weight: bolder;
 }
+
+/* media query */
+@media screen and (max-width: 576px) {
+  #country-list{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
